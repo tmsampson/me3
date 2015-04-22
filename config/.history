@@ -1,0 +1,48 @@
+ls
+rgrep
+grep
+echo foo > test.bat
+notepad test.bat 
+explorer .
+echo foo
+C:\Users\tsampson\Desktop\cmder\vendor\init_myenv.bat
+"C:\Users\tsampson\Desktop\cmder\vendor\init_myenv.bat"
+start "C:\Users\tsampson\Desktop\cmder\vendor\init_myenv.bat"
+call "C:\Users\tsampson\Desktop\cmder\vendor\init_myenv.bat"
+cd "Desktop\cmder\vendor\
+ls
+init_myenv.bat 
+ls
+Z:
+cd LBP\bluray3\tools\
+rgrep foo
+wget /?
+wget
+wget https://bitbucket.org/drummertom999/hgrc/raw/2eded6ab96303f1bfbd83e144a5d635be14188e6/hgrc "%USERPROFILE%"
+wget http://bitbucket.org/drummertom999/hgrc/raw/2eded6ab96303f1bfbd83e144a5d635be14188e6/hgrc "%USERPROFILE%"
+wget https://bitbucket.org/drummertom999/hgrc/raw/2eded6ab96303f1bfbd83e144a5d635be14188e6/hgrc --no-check-certificate "%USERPROFILE%"
+wget https://bitbucket.org/drummertom999/hgrc/raw/2eded6ab96303f1bfbd83e144a5d635be14188e6/hgrc --no-check-certificate > "%USERPROFILE%"
+wget https://bitbucket.org/drummertom999/hgrc/raw/2eded6ab96303f1bfbd83e144a5d635be14188e6/hgrc --no-check-certificate
+cd %USERPROFILE%
+C:
+wget https://bitbucket.org/drummertom999/hgrc/raw/2eded6ab96303f1bfbd83e144a5d635be14188e6/hgrc --no-check-certificate
+wget --output-document %USERPROFILE%\.hgrc https://bitbucket.org/drummertom999/hgrc/raw/2eded6ab96303f1bfbd83e144a5d635be14188e6/hgrc --no-check-certificate
+wget --output-document "%USERPROFILE%\.hgrc" https://bitbucket.org/drummertom999/hgrc/raw/2eded6ab96303f1bfbd83e144a5d635be14188e6/hgrc --no-check-certificate
+nano
+lock
+handle foo.txt 
+plot x^2
+ree
+where md5
+md5 foo.txt 
+sha1 foo.txt 
+fciv /?
+fciv -?
+xcopy /?
+xopy /?
+xcopy /?
+rmdir /?
+rgrep
+sha1
+where sha1
+where fciv.exe
