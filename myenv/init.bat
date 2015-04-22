@@ -37,6 +37,9 @@ if NOT exist %MYENV_INIT_FLAG% (
 	echo [+] Downloading custom .hgrc file
 	wget --output-document "%USERPROFILE%\.hgrc" --no-check-certificate %MYENV_URL_HGRC% > nul 2>&1
 
+	echo [+] Opening Sublime Text 3 (needed to create user preferences folder)
+	START "%MYENV_SUBLIME%"
+
 	echo [+] Downloading Sublime Text 3 user preferences
 	hg clone %MYENV_URL_ST3% "%MYENV_TEMP%\sublime-text-settings" > nul 2>&1
 	xcopy "%MYENV_TEMP%\sublime-text-settings\files" "%APPDATA%\Sublime Text 3\Packages\User" /F /Y /I > nul 2>&1
