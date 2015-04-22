@@ -11,3 +11,4 @@ spy=spyxx.exe
 spy64=spyxx_amd64.exe
 md5=fciv.exe -md5 $*
 sha1=fciv.exe -sha1 $*
+st="C:\Program Files\Sublime Text 3\sublime_text.exe"
