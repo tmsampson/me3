@@ -23,7 +23,7 @@ if NOT exist %MYENV_INIT_FLAG% (
 
 	mkdir "%MYENV_TEMP%"
 
-	echo. & echo [+] Registering command line aliases
+	echo [+] Registering command line aliases
 	xcopy "%MYENV_ROOT%/aliases" "%CMDER_ROOT%/config/aliases" /F /Y /I > nul 2>&1
 
 	echo [+] Installing mercurial { Press enter when complete... }
