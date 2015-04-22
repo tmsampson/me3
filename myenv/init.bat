@@ -43,6 +43,10 @@ if NOT exist %MYENV_INIT_FLAG% (
 	xcopy "%MYENV_TEMP%\sublime-text-settings\files" "%APPDATA%\Sublime Text 3\Packages\User" /F /Y /I > nul 2>&1
 	"%MYENV_SUBLIME%" "%APPDATA%\Sublime Text 3\Packages\User\final_instructions.txt"
 
+	echo [+] Creating shortcuts
+	shortcut /A:C /F:"%CMDER_ROOT%\ME3.lnk" /T:"%CMDER_ROOT%\cmder.exe" > nul 2>&1
+	shortcut /A:C /F:"%USERPROFILE%\Desktop\ME3.lnk" /T:"%CMDER_ROOT%\cmder.exe" > nul 2>&1
+
 	:: Finish up
 	rmdir "%MYENV_TEMP%" /S /Q
 	echo. & echo 1 > %MYENV_INIT_FLAG%
