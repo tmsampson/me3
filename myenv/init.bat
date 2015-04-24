@@ -13,6 +13,7 @@ SET MYENV_SUBLIME=C:\Program Files\Sublime Text 3\sublime_text.exe
 
 :: Add binaries to path
 SET PATH=%PATH%;%MYENV_BIN%
+SET PATH=%PATH%;%MYENV_BIN%\TortoiseHgWorkbench
 
 :: Show splash screen
 cat "%MYENV_ROOT%\splash"
