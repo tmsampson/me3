@@ -3,7 +3,6 @@ set completion-ignore-case      on
 set completion-map-case         on
 set completion-display-width    106
 set output-meta                 on
-set history-size                1000
 set skip-completed-text         on
 set convert-meta                on
 
@@ -63,4 +62,9 @@ $if cmd.exe
 $endif
 
 set keymap emacs
+
+# Uncomment these two lines for vanilla cmd.exe style completion.
+# "\t": clink-menu-completion-shim
+# "\e`Z": clink-backward-menu-completion-shim
+
 $include ~/clink_inputrc
