@@ -28,7 +28,7 @@ if NOT exist %MYENV_INIT_FLAG% (
 	xcopy "%MYENV_ROOT%/aliases" "%CMDER_ROOT%/config/aliases" /F /Y /I > nul 2>&1
 
 	echo [+] Installing mercurial { Press enter when complete... }
-	START "" http://mercurial.selenic.com/downloads
+	START "" https://www.mercurial-scm.org/
 	PAUSE > nul 2>&1
 
 	echo [+] Downloading Sublime Text 3 { Press enter when complete... }
