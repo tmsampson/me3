@@ -16,7 +16,7 @@ SET PATH=%PATH%;%MYENV_BIN%
 SET PATH=%PATH%;%MYENV_BIN%\TortoiseHgWorkbench
 
 :: Show splash screen
-cat "%MYENV_ROOT%\splash"
+type "%MYENV_ROOT%\splash"
 echo. & echo.
 
 :: First run?
